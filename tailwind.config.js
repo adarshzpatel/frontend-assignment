@@ -1,4 +1,4 @@
-import {neutral,indigo} from 'tailwindcss/colors'
+import {indigo } from 'tailwindcss/colors'
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -9,7 +9,11 @@ export default {
     extend: {
       colors:{
         primary:indigo,
-        gray:neutral
+        "gray-background":"#17171A",
+        "gray-foreground":"#26252A"
+      },
+      fontFamily:{
+        sans:'Inter, sans-serif'
       }
     },
   },
