@@ -2,7 +2,7 @@ import { useState } from "react";
 import Dropdown from "../shared/Dropdown";
 import ModelRow, { ModelRowProps } from "./ModelRow";
 import { FiChevronDown } from "react-icons/fi";
-import { LayoutGroup, motion } from "framer-motion";
+import { LayoutGroup } from "framer-motion";
 
 const FilterDropdown = () => {
   return (

@@ -1,4 +1,4 @@
-import { AnimatePresence, LayoutGroup } from "framer-motion";
+import { AnimatePresence } from "framer-motion";
 import ContributorsCell from "./ContributorsCell";
 import ModelBrand from "./ModelBrand";
 import Rating from "./Rating";

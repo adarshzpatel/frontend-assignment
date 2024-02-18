@@ -2,8 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "../utils";
 import { FiPlus, FiMinus } from "react-icons/fi";
-import { MdHeight } from "react-icons/md";
-import Portal from "./Portal";
 
 interface DropdownProps {
   options: string[];

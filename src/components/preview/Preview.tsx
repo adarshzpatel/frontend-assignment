@@ -1,4 +1,3 @@
-import { HiChevronDown } from "react-icons/hi";
 import Dropdown from "../shared/Dropdown";
 import AskAiModal from "./AskAiModal";
 import BeforeAfterView from "./BeforeAfterPreview";

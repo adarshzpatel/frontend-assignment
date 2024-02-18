@@ -1,7 +1,5 @@
 import { useState } from "react";
-import { IoArrowDownCircleSharp } from "react-icons/io5";
 import Clock from "./Clock";
-import ArrowDownIcon from "../icons/ArrowDownIcon";
 import { BsArrowDown } from "react-icons/bs";
 import CurrenTime from "./CurrenTime";
 

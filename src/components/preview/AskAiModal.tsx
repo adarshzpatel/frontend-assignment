@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import  { useEffect, useRef, useState } from "react";
 import Portal from "../shared/Portal";
 import { HiX } from "react-icons/hi";
 import SparklesIcon from "./SparklesIcon";
