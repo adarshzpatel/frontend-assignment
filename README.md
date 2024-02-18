@@ -9,7 +9,7 @@ Figma Link : [View Design](https://www.figma.com/file/Cc7aXg31H0smqVfkqOD0tS/Fro
 - React.js
 - Typescript
 - Tailwindcss
-- react-reizable ( to make resizable windows )
+- react-reizable-panels ( to make resizable windows )
 - framer-motion
 
 
