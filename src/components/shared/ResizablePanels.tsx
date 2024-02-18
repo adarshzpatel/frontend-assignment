@@ -33,7 +33,7 @@ const ResizableHandle = ({
   >
     <div
       className={cn(
-        "z-10 rounded-sm opacity-5 group-hover:opacity-60 duration-300 bg-white h-8 w-1 data-[panel-group-direction=vertical]:h-1"
+        "z-10 rounded-sm  opacity-5 group-hover:opacity-60 duration-300 bg-white h-8 w-1 data-[panel-group-direction=vertical]:h-1"
       )}
     ></div>
   </ResizablePrimitive.PanelResizeHandle>

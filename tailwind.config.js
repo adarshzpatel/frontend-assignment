@@ -1,4 +1,4 @@
-import {indigo, neutral } from 'tailwindcss/colors'
+import { neutral } from 'tailwindcss/colors'
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -8,7 +8,18 @@ export default {
   theme: {
     extend: {
       colors:{
-        primary:indigo,
+        primary: {
+          50: 'color-mix(in srgb, var(--primary-color) 5%, white)',
+          100: 'color-mix(in srgb, var(--primary-color) 10%, white)',
+          200: 'color-mix(in srgb, var(--primary-color) 30%, white)',
+          300: 'color-mix(in srgb, var(--primary-color) 50%, white)',
+          400: 'color-mix(in srgb, var(--primary-color) 70%, white)',
+          500: 'var(--primary-color)',
+          600: 'color-mix(in srgb, var(--primary-color), black 10%)',
+          700: 'color-mix(in srgb, var(--primary-color), black 30%)',
+          800: 'color-mix(in srgb, var(--primary-color), black 50%)',
+          900: 'color-mix(in srgb, var(--primary-color), black 70%)',
+      },
         gray:neutral
       },
       fontFamily:{

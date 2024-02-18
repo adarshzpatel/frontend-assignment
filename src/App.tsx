@@ -1,4 +1,4 @@
-import Layout from "./components/layout/Layout";
+import Layout from "./components/shared/Layout";
 import TodaysTasks from "./components/tasks/TodaysTasks";
 import Time from "./components/time/Time";
 import Preview from "./components/preview/Preview";

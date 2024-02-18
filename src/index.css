@@ -3,6 +3,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+:root {
+  --primary-color: #96454c;
+}
+
+
 html {
   @apply accent-primary-600;
 }
@@ -12,18 +19,29 @@ th {
 }
 
 td {
-  @apply text-center text-sm text-white/60 p-4;
+  @apply text-center text-sm text-white/60 px-2 py-3 w-20;
 }
 
-th:first-child,
-td:first-child {
-  @apply rounded-es-lg pl-8 w-64 text-left;
+th:first-child {
+  @apply rounded-es-lg pl-7  text-left ;
+  width: 244px;
 }
 
-th:last-child,
-td:last-child {
-  @apply rounded-ee-lg pr-8;
+th:last-child{
+  @apply rounded-ee-lg pr-7 ;
+  width: 116px;
 }
+
+td:first-child{
+  @apply rounded-l-lg pl-7;
+  width: 244px;
+}
+td:last-child{
+  @apply rounded-r-lg pr-7;
+  width: 244px;
+}
+
+
 
 @keyframes anim-ring-1 {
   0%,
@@ -90,4 +108,13 @@ td:last-child {
   background-size: cover;
   user-select: none;
   height: full;
+}
+
+
+.hue-horizontal{
+  border-radius: 999px !important;
+}
+
+.styled-btn{
+  @apply border-t border-white/50 bg-gradient-to-t ring-1 ring-primary-600 from-primary-500  to-primary-400  hover:from-primary-400 hover:to-primary-500 ;
 }
